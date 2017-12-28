@@ -1,0 +1,34 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /* font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif; */
+  /* background: #ffffff url('../img/background.jpg') no-repeat center top; */
+  background: #ffffff;
+}
+
+.center {
+  height: 100%;
+  position: relative;
+}
+
+.center iframe {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
